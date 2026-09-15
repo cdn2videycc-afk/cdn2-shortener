@@ -8,7 +8,8 @@ export default {
     const links = {
       "fb": "https://facebook.com",
       "yt": "https://youtube.com",
-      "v1": "https://google.com"
+      "v1": "https://google.com",
+      "cdn": "https://quax.space/cdn/"
     };
 
     if (links[path]) return Response.redirect(links[path], 302);
